@@ -116,7 +116,7 @@ function setupRW() {
 	g_jsview_butterfly = new Int64(bf);
 	if(!read64(g_jsview_butterfly.sub(16)).equals(new Int64("0xffff000000001337")))
 		die("[!] Failed to setup addrof/fakeobj primitives");
-	debug_log("A exploração será em 2 minitos. NÃO USE O CONTROLE, AGUARDE...");
+	debug_log("A exploração será em 2 minutos. NÃO USE O CONTROLE, AGUARDE...");
 
 	/* Getting code execution */
 	/* ... */
